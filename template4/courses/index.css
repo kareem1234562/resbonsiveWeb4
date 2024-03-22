@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+@media (max-width:625px) {
+    .links a div{
+        display: none;
+       }
+        .links a{
+            justify-content: center !important;
+            width: fit-content !important;
+        }
+      .courses{
+        width: 100% !important;
+      }
+}
+aside{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+aside header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin-top: 1rem;
+}
+.parent-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+.line{
+    width: 2.3rem;
+    height: 2px;
+    background: black;
+}
+.parent-line .circ{
+    width: 1rem;
+    height: 1rem;
+    background-color: black;
+    border-radius: 50%;
+}
+.links .content{
+    padding: 1rem 1.5rem;
+    width: 80%;
+    margin:  .5rem auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.links i{
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.links a{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .5rem;
+    margin: .5rem 0;
+}
+.links a:hover{
+    background-color: #eeeeeeab;
+    cursor: pointer;
+    transition: .3s;
+}
+#eee{
+    background-color: #eeeeeeab !important;
+}
+.container{
+    display: flex;
+}
+.eee{
+    width: 100%;
+}
+.hed{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    box-shadow: 3px 1px 3px 1px #777;
+    position: relative;
+}
+.sea{
+    display: flex;
+    align-items: center;
+}
+.sea i{
+    left: 29px;
+    font-size: 18px;
+    position: relative;
+}
+.hed input{
+    height: 2rem;
+    border-radius: 5px;
+    border: solid 1px #999;
+    padding-left: 2rem;
+}
+.hed input:focus{
+outline: none;
+}
+.hed input:focus::placeholder{
+   color: transparent;
+   transition: .3s;
+    }
+    .hed input:focus{
+        padding-right: 3rem;
+        transition: .3s;
+         }
+.ava{
+    width: 3%;
+}
+.ava img{
+    width: 100%;
+}
+.body{
+    padding: 1rem;
+    background-color: #f1f5f9;
+}
+.big{
+    width: 7rem;
+    background-color: white;
+    height: 3px;
+    margin: .7rem 1px;
+}
+.small{
+    width: 3rem;
+    background-color: black;
+    height: 3px;
+}
+.parent-courses{
+    margin: 3rem 0;
+    margin: 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.courses{
+    background-color: white;
+    width: 24%;
+    border-radius: 10px;
+    position: relative;
+}
+.top .fi{
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+.sec{
+    position: absolute;
+    left: 1rem;
+    width: 3rem;
+    border-radius: 50%;
+    top: 1rem;
+}
+
+.down{    line-height: 1.5rem;}
+.down h3{
+    padding: 1rem;
+}
+.mid{
+    padding: 0rem 1rem;
+    color: #999;
+}
+.btn{
+    width: fit-content;
+    background-color: blue;
+    padding: .2em 0.3rem;
+    border-radius: 5px;
+    margin: auto;
+    color: white;
+    position: relative;
+    top: 1rem;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: solid 1px #999;
+    padding: 1rem;
+    color: #999;
+}
+.prof{
+    display: flex;
+    align-items: center;
+}
